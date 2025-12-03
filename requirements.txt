@@ -1,0 +1,26 @@
+# Core Python utilities
+python-dotenv
+pydantic
+
+# HTTP for API pulls (StatsCan, BoC, CMHC)
+requests
+
+# Data handling
+pandas
+
+# Database
+SQLAlchemy
+psycopg2-binary
+
+# Migrations (optional but recommended)
+alembic
+
+# Panel UI
+panel
+bokeh
+
+# Plotting helpers (optional but handy)
+holoviews
+
+# Testing
+pytest
