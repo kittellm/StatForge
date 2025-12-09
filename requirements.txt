@@ -1,6 +1,9 @@
 # Core Python utilities
 python-dotenv
 pydantic
+pydantic-settings
+fastapi
+uvicorn
 
 # HTTP for API pulls (StatsCan, BoC, CMHC)
 requests

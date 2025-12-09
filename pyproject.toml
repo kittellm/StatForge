@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statforge"
+version = "0.1.0"
+description = "StatForge: Personal macro data warehouse"
+authors = [{name = "Max Kittell", email = "maxwkitt@example.com"}]
+dependencies = [
+    "python-dotenv",
+    "pydantic",
+    "pydantic-settings",
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "pandas",
+    "SQLAlchemy",
+    "psycopg2-binary",
+    "alembic",
+    "panel",
+    "bokeh",
+    "holoviews",
+    "pytest"
+]
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+where = ["src"]

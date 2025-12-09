@@ -27,3 +27,8 @@ Thumbs.db
 
 # Docker
 *.log
+
+# AI
+.gemini/
+GEMINI.md
+AGENTS.md
